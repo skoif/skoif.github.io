@@ -1,0 +1,53 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #111;
+}
+a{
+    color: #59b7f3;
+    text-decoration: none;
+}
+.fw{
+    width: 100%;
+}
+
+.topbar{
+    padding-bottom: 2rem;
+}
+.topbar .name{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.topbar .links{
+    margin: 0px;
+    padding: 0px;
+}
+.topbar .links a{
+    color: #222;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.topbar .links a.select{
+    text-decoration: line-through;
+}
+.topbar .links a:hover{
+    text-decoration: line-through;
+}
+
+.maincontent{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (min-width: 950px) and (min-height: 800px) {
+    .page-va{
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        right: 0px;
+        transform: translateY(-60%);
+    }
+}
